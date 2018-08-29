@@ -1,0 +1,4 @@
+---
+repositories:
+     - remote: "git@github.com:puppetlabs/support-tasks.git"
+       private-key: "/etc/puppetlabs/puppetserver/id_rsa.tasks"
