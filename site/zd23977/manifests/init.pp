@@ -12,9 +12,9 @@ class zd23977 {
   #    max_user_connections     => '0',
   #  }
   mysql::db { 'mydb':
-    user      => 'myuser',
-    password  => 'mypass',
-    host      => 'localhost',
-    grant     => ['SELECT', 'UPDATE'],
+    user     => 'myuser',
+    password => 'mypass',
+    host     => 'localhost',
+    grant    => ['SELECT', 'UPDATE'],
   }
 }
