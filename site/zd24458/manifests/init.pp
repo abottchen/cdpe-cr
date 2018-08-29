@@ -1,5 +1,5 @@
 class zd24458 {
-  $query = ["from", "nodes"]
+  $query = ['from', 'nodes']
   $clusters = puppetdb_query($query)
   file { '/tmp/test':
     ensure  => file,

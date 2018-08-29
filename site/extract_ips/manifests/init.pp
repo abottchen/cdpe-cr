@@ -3,5 +3,5 @@ class extract_ips {
       $v["ip"]
   }
 
-  notify { join($ips, ","): }
+  notify { join($ips, ','): }
 }

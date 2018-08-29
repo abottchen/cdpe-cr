@@ -4,10 +4,8 @@ class puppet_splay {
     path    => '/etc/puppetlabs/puppet/puppet.conf',
     section => 'agent',
     setting => 'splay',
-    value   => 'true',
-  } ~> 
-
-  service { 'puppet':
+    value   => true,
+  } ~> service { 'puppet':
     ensure => running,
   }
 }

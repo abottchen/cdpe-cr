@@ -1,5 +1,5 @@
 class zd21049 (
-  $foo = "bar"
+  $foo = 'bar'
 ){
   notify {$foo: }
 }
