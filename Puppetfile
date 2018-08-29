@@ -5,4 +5,4 @@
 #mod 'support-tasks',
 #  :git => "git@github.com:puppetlabs/support-tasks.git"
 
-mod 'apache'
+mod 'puppetlabs/apache'
