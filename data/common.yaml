@@ -1,5 +1,5 @@
 ---
-git_settings:
+puppet_enterprise::master::code_manager::git_settings:
   private-key: "/etc/puppetlabs/puppetserver/id_rsa"
   repositories:
      - remote: "git@github.com:puppetlabs/support-tasks.git"
