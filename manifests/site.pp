@@ -33,5 +33,5 @@ node default {
   # Example:
   #   class { 'my_class': } 
 
-  notify {'Production Environment':}
+  notify {'cdpe Environment':}
 }
