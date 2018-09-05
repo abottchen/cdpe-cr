@@ -26,3 +26,5 @@ node default {
     server => "pe-201611-master-lei.puppetdebug.vlan",
   }
 }
+
+notify {'Test Environment': }
